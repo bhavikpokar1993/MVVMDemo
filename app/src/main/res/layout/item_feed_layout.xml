@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/dimen_margin_8dp"
+    android:layout_width="match_parent"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/dimen_card_radius_5_dp"
+    app:cardElevation="@dimen/dimen_margin_2dp"
+    android:layout_margin="@dimen/dimen_7dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            style="@style/TextStyle.Heading"
+            android:id="@+id/tv_title"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dimen_margin_12dp"
+            android:layout_marginStart="@dimen/dimen_margin_12dp"
+            android:layout_marginTop="@dimen/dimen_margin_12dp"
+            android:layout_width="0dp"
+            android:text="@{rowDTO.mTitle}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Title"
+            tools:visibility="visible" />
+
+        <TextView
+            style="@style/TextStyle.DescSmall"
+            android:id="@+id/tv_desc"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_margin_12dp"
+            android:layout_marginEnd="@dimen/dimen_margin_12dp"
+            android:layout_marginStart="@dimen/dimen_margin_12dp"
+            android:layout_marginTop="@dimen/dimen_margin_8dp"
+            android:layout_width="0dp"
+            android:text="@{rowDTO.mDescription}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/appCompatImageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Description DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/dimen_margin_12dp"
+            android:layout_marginEnd="@dimen/dimen_margin_12dp"
+            android:layout_marginTop="@dimen/dimen_margin_8dp"
+            android:layout_width="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

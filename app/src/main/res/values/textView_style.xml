@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text.Action" parent="Text.heading2.Sfprotext.Bold">
+        <item name="android:textSize">@dimen/dimen_24sp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text.Action.Medium" parent="Text.heading2.Sfprotext.Medium">
+        <item name="android:textSize">@dimen/dimen_24sp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text.Action.Regular" parent="Text.heading2.Sfprotext.Regular">
+        <item name="android:textSize">@dimen/dimen_24sp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text.Action.SubTitle" parent="Text.heading3.Sfprotext.Regular">
+        <item name="android:layout_marginTop">@dimen/dimen_8dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_8dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text.Action.SubTitle.Medium" parent="Text.heading3.Sfprotext.Medium">
+        <item name="android:layout_marginTop">@dimen/dimen_8dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen_16dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_8dp</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="Text.Header.Regular" parent="Text.heading3.Sfprotext.Regular">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginTop">@dimen/dimen_16dp</item>
+    </style>
+
+    <style name="Text.Header.Medium" parent="Text.heading3.Sfprotext.Medium"></style>
+
+    <style name="Text.Header.Bold" parent="Text.heading3.Sfprotext.Bold">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.Title.Regular" parent="Text.heading4.Sfprotext.Regular">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="Text.Title.Medium" parent="Text.heading4.Sfprotext.SemiBold"></style>
+
+    <style name="Text.Title.Bold" parent="Text.heading4.Sfprotext.Bold"></style>
+
+    <style name="text_spinner" parent="Text.heading3.Sfprotext.Regular"></style>
+
+    <style name="Text.SubTitle" parent="Text.heading5.Sfprotext.Regular"></style>
+
+    <style name="Text.SubTitle.Bold" parent="Text.heading5.Sfprotext.Bold"></style>
+
+    <style name="Text.SubTitle.Medium" parent="Text.heading5.Sfprotext.Medium"></style>
+
+</resources>
